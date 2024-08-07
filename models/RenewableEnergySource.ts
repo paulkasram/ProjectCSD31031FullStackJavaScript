@@ -14,11 +14,11 @@ class RenewableEnergySource {
     }
 
     monitorOutput(): void {
-        // Implement output monitoring logic
+        // TODO
     }
 
     storeEnergy(): void {
-        // Implement energy storing logic
+        // TODO
     }
 }
 
