@@ -11,7 +11,7 @@ class CentralManagementPlatform {
         this.alerts = alerts;
     }
 
-    visualizeData(buildingConsumption): void {
+    visualizeData(buildingConsumption: number): void {
         console.log(`The energy consumption was ${buildingConsumption*100}%`);
     }
 

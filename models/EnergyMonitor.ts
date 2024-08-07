@@ -1,20 +1,23 @@
+import HVACSystem from "./HVACSystem";
+import LightingSystem from "./LightingSystem";
+
 class EnergyMonitor {
     id: number;
     type: string;
-    data: string;
+    data: number;
 
-    constructor(id: number, type: string, data: string) {
+    constructor(id: number, type: string, data: number) {
         this.id = id;
         this.type = type;
         this.data = data;
     }
 
-    collectData(): void {
-        // Implement data collection logic
+    collectData(hvacSystem: HVACSystem, lightingSystem: LightingSystem): void {
+        this.data = hvacSystem.energyConsumption + lightingSystem.energyConsumption
     }
 
-    sendData(): void {
-        // Implement data sending logic
+    sendData(): number {
+        return this.data;
     }
 }
 

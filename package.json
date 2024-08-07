@@ -4,7 +4,7 @@
   "description": "The Smart Campus Energy Management System is designed to optimize energy usage across various buildings and facilities on a university campus. ",
   "main": "This system leverages edge computing devices, IoT sensors, and a centralized management platform to monitor, analyze, and control energy consumption in real-time.",
   "scripts": {
-    "start": "node --watch main.js"
+    "start": "node --watch ./dist/main.js"
   },
   "repository": {
     "type": "git",

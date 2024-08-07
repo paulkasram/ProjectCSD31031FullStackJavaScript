@@ -3,12 +3,14 @@ class LightingSystem {
     area: string;
     lightLevel: number;
     status: string;
+    energyConsumption: number;
 
-    constructor(id: number, area: string, lightLevel: number, status: string) {
+    constructor(id: number, area: string, lightLevel: number, status: string, energyConsumption: number) {
         this.id = id;
         this.area = area;
         this.lightLevel = lightLevel;
         this.status = status;
+        this.energyConsumption = energyConsumption;
     }
 
     adjustLighting(): void {
@@ -19,3 +21,5 @@ class LightingSystem {
         // Implement motion detection logic
     }
 }
+
+export default LightingSystem;
