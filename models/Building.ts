@@ -26,6 +26,8 @@ class Building {
     }
 
     monitorEnergy(): void {
+        console.log(`Data is being gathering by ${this.name}. . .`);
+        
         this.energyMonitor.collectData(this.hvacSystem, this.lightingSystem);
     }
 }

@@ -14,11 +14,11 @@ class LightingSystem {
     }
 
     adjustLighting(): void {
-        // Implement lighting adjustment logic
+        // TODO
     }
 
     detectMotion(): void {
-        // Implement motion detection logic
+        // TODO
     }
 }
 

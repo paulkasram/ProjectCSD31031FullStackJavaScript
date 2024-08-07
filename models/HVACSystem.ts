@@ -14,11 +14,11 @@ class HVACSystem {
     }
 
     adjustTemperature(): void {
-        // Implement temperature adjustment logic
+        // TODO
     }
 
     scheduleMaintenance(): void {
-        // Implement maintenance scheduling logic
+        // TODO
     }
 }
 

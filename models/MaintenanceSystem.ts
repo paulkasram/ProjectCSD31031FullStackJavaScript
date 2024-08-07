@@ -10,10 +10,10 @@ class MaintenanceSystem {
   }
 
   monitorEquipment(): void {
-    // Implement equipment monitoring logic
+    // TODO
   }
 
   scheduleMaintenance(): void {
-    // Implement maintenance scheduling logic
+    // TODO
   }
 }
