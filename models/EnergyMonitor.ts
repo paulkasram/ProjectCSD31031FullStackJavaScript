@@ -17,3 +17,5 @@ class EnergyMonitor {
         // Implement data sending logic
     }
 }
+
+export default EnergyMonitor;
