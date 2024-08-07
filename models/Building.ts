@@ -1,3 +1,6 @@
+import EnergyMonitor from "./EnergyMonitor";
+import RenewableEnergySource from "./RenewableEnergySource";
+
 class Building {
     id: number;
     name: string;

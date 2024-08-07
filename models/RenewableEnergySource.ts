@@ -19,3 +19,5 @@ class RenewableEnergySource {
         // Implement energy storing logic
     }
 }
+
+export default RenewableEnergySource;
