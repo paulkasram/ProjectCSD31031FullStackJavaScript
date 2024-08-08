@@ -1,6 +1,6 @@
 #To download and test this package follow these steps:
 ##Step 1:
-In your empty project folder create a new js file and copy the following:
+In your empty project folder create a new app.js file and copy the following:
 const objects = require('@alexander.gutierrez/smart-campus-energy-management-system');
 const user = objects.default.user;
 const centralManagementPlatform = objects.default.centralManagementPlatform;
@@ -24,4 +24,4 @@ To install the package, rum this in the terminal:
 (bash) run: npm i @alexander.gutierrez/smart-campus-energy-management-system
 
 ##Step 4:
-Run the app.js file recently created.
+Run the app.js file recently created. 
