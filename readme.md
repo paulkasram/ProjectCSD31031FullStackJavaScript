@@ -20,9 +20,9 @@ dataAnalysis.analyzeData();
 ```
 
 ### Step 2:
-In the terminal, run: 
+In the terminal, run the following to create the package.json: 
 
-`npm init -y" to create the package.json.`
+`npm init -y`
 
 ### Step 3:
 To install the package, rum this in the bash run: 
