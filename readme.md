@@ -20,11 +20,15 @@ dataAnalysis.analyzeData();
 ```
 
 ### Step 2:
-In the terminal, run: "npm init -y" to create the package.json.
+In the terminal, run: 
+
+`npm init -y" to create the package.json.`
 
 ### Step 3:
-To install the package, rum this in the terminal:
-(bash) run: npm i @alexander.gutierrez/smart-campus-energy-management-system
+To install the package, rum this in the bash run: 
+
+`npm i @alexander.gutierrez/smart-campus-energy-management-system`
 
 ### Step 4:
-Run the app.js file recently created. 
+Run the app.js file recently created.
+`node app.js`
