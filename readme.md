@@ -25,10 +25,10 @@ In the terminal, run the following to create the package.json:
 `npm init -y`
 
 ### Step 3:
-To install the package, rum this in the bash run: 
+To install the package, run this in the bash terminal: 
 
 `npm i @alexander.gutierrez/smart-campus-energy-management-system`
 
 ### Step 4:
-Run the app.js file recently created.
+Run the app.js file recently created:
 `node app.js`
