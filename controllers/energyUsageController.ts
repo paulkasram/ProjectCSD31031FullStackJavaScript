@@ -9,16 +9,40 @@ import DataAnalysis from "../models/DataAnalysis";
 
 // Model Initializers
 const energyMonitor = new EnergyMonitor(1000, "Hydro", 0);
-const renewableEnergySource = new RenewableEnergySource(1000, "Solar", 120, 6000, 1000);
+const renewableEnergySource = new RenewableEnergySource(
+  1000,
+  "Solar",
+  120,
+  6000,
+  1000
+);
 const hvacSystem = new HVACSystem(1000, "Class rooms", 21, "on", 300);
 const lightingSystem = new LightingSystem(1000, "Class rooms", 7, "on", 50);
 
-const building = new Building (1234, "Main Campus", "271 Yorkdale Blvd", 0,
-    energyMonitor, renewableEnergySource, hvacSystem, lightingSystem);
-    
-const centralManagementPlatform = new CentralManagementPlatform(1000, "LCD", "Monthly", "Normal", building);
+const building = new Building(
+  1234,
+  "Main Campus",
+  "271 Yorkdale Blvd",
+  0,
+  energyMonitor,
+  renewableEnergySource,
+  hvacSystem,
+  lightingSystem
+);
+
+const centralManagementPlatform = new CentralManagementPlatform(
+  1000,
+  "LCD",
+  "Monthly",
+  "Normal",
+  building
+);
 const user = new UserEngagement(1000, 2000);
 
-const dataAnalysis = new DataAnalysis(1004, "Automatic Analysis", "Low energy consumption");
-const objects = {user, centralManagementPlatform, dataAnalysis};
+const dataAnalysis = new DataAnalysis(
+  1004,
+  "Automatic Analysis",
+  "Low energy consumption"
+);
+const objects = { user, centralManagementPlatform, dataAnalysis };
 export default objects;
