@@ -9,10 +9,10 @@ const packageJsonContent = {
   scripts: {
     start: "npm run start-system",
     "start-system":
-      "node ./node_modules/@paulaksram/smart-campus-energy-management-system/dist/main.js",
+      "node ./node_modules/@paulkasram/smart-campus-energy-management-system/dist/main.js",
   },
   dependencies: {
-    "@paulaksram/smart-campus-energy-management-system": "^2.0.0",
+    "@paulkasram/smart-campus-energy-management-system": "^2.0.0",
   },
 };
 

@@ -4,7 +4,7 @@
 
 To install the package, run this in the bash terminal:
 
-`npm i @paulaksram/smart-campus-energy-management-system`
+`npm i @paulkasram/smart-campus-energy-management-system`
 
 ### Step 2:
 
